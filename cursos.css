@@ -1,0 +1,65 @@
+
+body{
+    background: url(img3.jpg);
+    font-family: 'Monserrat', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 160px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(12, 67, 139);
+    color: rgb(255, 254, 254);
+    border:1 px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 10px -10px 5px rgb(255, 238, 0);
+    width: 23%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: rgb(0, 225, 255);
+}
+
+.btn-c{
+    background: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-c:hover{
+background: rgb(36, 228, 11);
+}
+
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

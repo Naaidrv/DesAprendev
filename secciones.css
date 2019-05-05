@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+background: url(blue-polygon.jpg);
+background-position: center;
+background-attachment: contain;
+background-size: cover;
+}
+@font-face{
+	font-family: pop;
+	src:url(Poppins-Regular.ttf);
+}
+
+header{
+	width: 100%;
+	background-color:rgba(66,66,66,0.8);
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background-color: red;*/
+	margin: auto;
+}
+
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background-color: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing:border-box;
+}
+
+.logo p a{
+    color: #FFF;
+    font-size: 28px;
+    	text-decoration: none;
+    	font-weight: bold;
+font-family: pop;
+
+}
+
+  /*Éstilos del menú*/
+
+nav{
+	width: 70%;
+	height: 70px;
+  /* 	background-color: olive;*/
+ float: left;
+    text-align: right;
+    padding-top: 24px;
+    	box-sizing:border-box;
+
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: none;
+text-transform: uppercase;
+padding-left: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+font-family: pop;
+}
+
+nav ul li a:hover{
+color: #0489B1;
+}
+
+#anchol{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+
+#letras{
+width: 80%;
+margin: auto;
+}
+
+#letras h1{
+	color: #FFF;
+	font-family:pop;
+	font-size: 70px;
+}
+
+#letras p{
+	color: #FFF;
+	font-family: pop;
+	font-size: 20px;
+	padding-top: 50px;
+}
