@@ -5,12 +5,12 @@
 
 @font-face{
 	font-family: pop, sans-serif;
-	src:url(Poppins-Regular.ttf);
+	src:url(/css/Poppins-Regular.ttf);
 }
 
 @font-face{
 	font-family: nuno;
-	src:url(NunitoSans-Regular.ttf);
+	src:url(/css/NunitoSans-Regular.ttf);
 }
 
 header{
@@ -73,7 +73,7 @@ color: rgb(13, 218, 57);
 }
 
 #image{
-	background: url(img2.jpg);
+	background: url(/assets/img2.jpg);
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
@@ -176,7 +176,7 @@ text-align: center;
 	padding: 20px 20px;
 	box-sizing: border-box;
 	margin: auto;
-	background: url(st.jpg);
+	background: url(/assets/st.jpg);
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;

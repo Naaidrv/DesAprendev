@@ -3,14 +3,14 @@
 	padding: 0;
 }
 body{
-background: url(blue-polygon.jpg);
+background: url(/assets/blue-polygon.jpg);
 background-position: center;
 background-attachment: contain;
 background-size: cover;
 }
 @font-face{
 	font-family: pop;
-	src:url(Poppins-Regular.ttf);
+	src:url(/css/Poppins-Regular.ttf);
 }
 
 header{

@@ -4,7 +4,7 @@
 }
 
 body{
-background: url(../img/abs.png);
+background: url(/assets/abs.png);
 background-attachment: contain;
 background-size: cover;
 }
@@ -77,11 +77,11 @@ color: #0489B1;
 
 @font-face{
 	font-family: pop;
-	src:url(Poppins-Regular.ttf);
+	src:url(/css/Poppins-Regular.ttf);
 }
 @font-face{
 	font-family: nuno;
-	src:url(NunitoSans-Regular.ttf);
+	src:url(/css/NunitoSans-Regular.ttf);
 }
 
  h4, h5{
