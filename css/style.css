@@ -13,11 +13,7 @@ html{
 }
 
 body{
-    background-size: cover;
     background-color: #0e0e0e;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url(/assets/img3.png);
 }
 
 /*Barra de Scroll*/
@@ -75,15 +71,8 @@ body{
 }
 
 .justify-content-end{
-    margin-right: 84px;
+    margin-right: 0px;
 } 
-
-
-.social-media a{
-    margin: 0 8px;
-    font-size: 30px;
-    color: rgb(180, 180, 180);
-}
 
 .col-8{
     margin-top: 20%;
@@ -108,4 +97,55 @@ body{
     text-align: left;
     font-size: 15pt;
     font-family: 'Questrial';
+}
+
+@media (max-width: 425px){
+
+    .navbar .container-xxl{
+        width: 100%;
+    }
+
+    .navbar .navbar-brand{
+        width: 50%;
+    }
+
+    .navbar .navbar-brand img{
+        width: 80%;
+    }
+
+    section .container-xxl{
+
+    }
+
+    .col-8{
+        width: 100%;
+    }
+
+    .col-8 h1{
+        color: white;
+        font-size: 26pt;
+        text-align: left;
+        font-weight: 400;
+        font-family: 'Poppins';
+    }
+    
+    .col-8 span{
+        font-weight: 600;
+        color: rgb(0, 255, 64);
+        text-transform: uppercase;
+    }
+    
+    .col-8 p{
+        color: white;
+        text-align: left;
+        font-size: 14pt;
+        font-family: 'Questrial';
+    }
+
+    .col-4{
+        width: 100%;
+    }
+    .col-4 img{
+        width: 80%;
+    }
 }
