@@ -1,0 +1,111 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-size: cover;
+    background-color: #0e0e0e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(/assets/img3.png);
+}
+
+/*Barra de Scroll*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #0fa5d3bd;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0fa5d3bd;
+}
+
+.navbar{
+    width:100%;
+    float: none;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -4px;
+    position: sticky;
+    list-style: none;
+    display: inline-flex;
+    background: #071838;
+}
+
+.navbar .navbar-brand img{
+    width: 40%;
+}
+
+.navbar-expand-xxl{
+    width: 100%;
+}
+
+.nav-item a{
+    margin: 0px 10px;
+    color: aliceblue;
+    text-decoration: none;    
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-item a:hover{
+    color: rgb(255, 0, 221);
+}
+
+.navbar .navbar-toggler{
+    background-color: white;
+}
+
+.justify-content-end{
+    margin-right: 84px;
+} 
+
+
+.social-media a{
+    margin: 0 8px;
+    font-size: 30px;
+    color: rgb(180, 180, 180);
+}
+
+.col-8{
+    margin-top: 20%;
+}
+
+.col-8 h1{
+    color: white;
+    font-size: 47pt;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.col-8 span{
+    font-weight: 600;
+    color: rgb(0, 255, 64);
+    text-transform: uppercase;
+}
+
+.col-8 p{
+    color: white;
+    text-align: left;
+    font-size: 15pt;
+    font-family: 'Questrial';
+}
