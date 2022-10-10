@@ -132,7 +132,7 @@ body{
 	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 960px;
+	width: 90%;
 }
 	
 	.slide-track {
@@ -145,6 +145,60 @@ body{
         color: white;
         font-size: 20pt;
         font-family: 'Questrial';
+    }
+
+    .col{
+        color: yellowgreen;
+    }
+
+    section .container-xxl{
+        padding: 6%;
+    }
+
+    .col-md-8 .card-body{
+        text-align:justify;
+    }
+
+    .col-md-8 .card-title{
+        font-weight: bold;
+        color: rebeccapurple;
+        /*text-transform: uppercase;*/
+    }
+
+    .col-md-8 .card-text{
+        color: black;
+    }
+
+    .col .col-md-4 img{
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    button a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    button{
+        width: 30%;
+        padding: 16px;
+        margin-top: 25px;
+        font-weight: bold;
+        border-radius: 30px;
+        letter-spacing: 1.4px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition-duration: 0.4s;
+        border: 2px solid #071838;
+        background-color: transparent;
+    }
+
+    button:hover{
+        background-color: #071838;
+    }
+
+    a:hover{
+        color: #FFF;
     }
 
 @media (max-width: 540px){
@@ -168,11 +222,12 @@ body{
 
     .col-8{
         width: 100%;
+        margin-top: 50px;
     }
 
     .col-8 h1{
         color: white;
-        font-size: 26pt;
+        font-size: 40pt;
         text-align: left;
         font-weight: 400;
         font-family: 'Poppins';
@@ -187,19 +242,35 @@ body{
     .col-8 p{
         color: white;
         text-align: left;
-        font-size: 14pt;
+        font-size: 16pt;
         font-family: 'Questrial';
     }
 
     .col-4{
-        margin-top: 0px;
         width: 100%;
     }
     .col-4 img{
         width: 80%;
+        margin-top: 100px;
     }
 
     .slider{
         width: 90%;
+    }
+
+    .paragraph{
+        margin-top: 20%;
+    }
+    
+    section .container-xxl{
+        padding: 6%;
+    }
+
+    .col-xxl .card-body{
+        text-align: left;
+    }
+
+    .col-xxl .mb-3 img{
+        width: 20%;
     }
 }
