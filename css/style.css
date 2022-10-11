@@ -18,7 +18,7 @@ body{
     background-color: #0e0e0e;
 }
 
-/*Barra de Scroll*/
+/*Barra de Scroll
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -32,7 +32,7 @@ body{
 
 ::-webkit-scrollbar-thumb:hover {
     background: #0fa5d3bd;
-}
+}*/
 
 .navbar{
     width:100%;
@@ -95,7 +95,7 @@ body{
     font-size: 47pt;
     text-align: left;
     font-weight: 400;
-    font-family: 'Poppins';
+    font-family: 'Questrial';
 }
 
 .col-8 span{
@@ -108,7 +108,7 @@ body{
     color: white;
     text-align: left;
     font-size: 15pt;
-    font-family: 'Questrial';
+    font-family: 'Poppins';
 }
 
 .col-4{
@@ -235,12 +235,12 @@ body{
 .learning .container-xxl .align-items-start h2{
     margin-top: 20%;
     color: #eeeeee;
-    font-family: 'Poppins';
+    font-family: 'Questrial';
 }
 
 .learning .container-xxl .align-items-start p{
     margin-top: 6%;
-    font-size: 14px;
+    font-size: 10pt;
     color: #a5a5a5;
     text-align: justify;
     font-family: 'Poppins';
@@ -255,6 +255,48 @@ body{
     color: rgb(0, 255, 64);
 }
 
+.col-6{
+    /*background: url(/assets/backtwo.png);
+    background-size:cover;*/
+    width: 100%;
+    height: 50vh;
+}
+
+#container1{
+    width: 100%;
+}
+
+#container1 .col-sm-4 img{
+    width: 100%;
+    border-top-left-radius: 40px 40px;
+    border-bottom-left-radius: 40px 40px;
+}
+
+#container1 .col-sm-7 .text{
+    margin-left: 6%;
+    width: 100%;
+}
+
+#container1 .col-sm-7, .fa-tablet{
+    font-size: 50pt;
+    color: rgb(0, 255, 64);
+}
+
+#container1 .col-sm-7 h2{
+    color: white;
+    width: 113%;
+    font-size: 39pt;
+    font-weight: bold;
+    font-family: 'Questrial';
+}
+
+#container1 .col-sm-7 p{
+    color: white;
+    margin-top: 20px;
+    font-size: 16pt;
+    text-align: justify;
+    font-family: 'Poppins';
+}
 
 @media only screen and (max-width: 540px){
 
@@ -350,31 +392,35 @@ body{
         width: 100%;
     }
 
-    section button a{
-        color: rgb(255, 255, 255);
-        text-decoration: none;
+    #container1 .col-sm-4 img{
+        border-top-left-radius: 40px 40px;
+        border-top-right-radius: 40px 40px;
+        border-bottom-left-radius: 40px 40px;
     }
-    
-    section button{
-        width: 60%;
-        padding: 16px;
-        margin-top: 25px;
+
+    #container1 .col-sm-7 .text{
+        width: 100%;
+    }
+
+    #container1 .col-sm-7, .fa-tablet{
+        margin-top: 10%;
+        font-size: 60px;
+        color: rgb(0, 255, 64);
+    }
+
+    #container1 .col-sm-7 h2{
+        color: white;
+        width: 100%;
+        font-size: 36px;
         font-weight: bold;
-        border-radius: 30px;
-        letter-spacing: 1.4px;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition-duration: 0.4s;
-        border: 2px solid #071838;
-        background-color: transparent;
+        font-family: 'Questrial';
     }
 
-    section button:hover{
-        background-color: #071838;
-    }
-
-    a:hover{
-        color: #FFF;
-        background: transparent;
+    #container1 .col-sm-7 p{
+        color: white;
+        margin-top: 10%;
+        font-size: 11pt;
+        text-align: justify;
+        font-family: 'Poppins';
     }
 }
