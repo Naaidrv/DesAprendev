@@ -281,59 +281,6 @@ body{
     font-family: 'Questrial';
 }
 
-.platform{
-    height: 70vh;
-    /*background: yellowgreen;*/
-}
-
-.platform .container{
-    width: 100%;
-    margin-top: 4%;
-    margin-bottom: 14px;
-    border-radius: 30px;
-    background: #071838;
-    background-image: url(/assets/backtwo.png);
-    background-size:contain;
-    background-repeat: repeat-x;
-    /*box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);
-    -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);*/
-}
-
-.platform #student{
-    width: 20%;
-    /*background: red;*/
-}
-
-.platform #student img{
-    width: 200%;
-    margin-top: 18%;
-    margin-left: -210px;
-}
-
-.platform #description{
-    width: 70%;
-    /*background: green;*/
-}
-
-.platform #description h2{
-    color: white;
-    margin-top: 8%;
-    font-size: 35pt;
-    font-family: 'Poppins';
-}
-
-.platform cite{
-    color: white;
-    font-size: 15pt;
-    font-family: 'Questrial';
-}
-
-.platform p{
-    font-size: 15pt;
-    color: rgb(0, 255, 64);
-    font-family: 'Questrial';
-}
 
 section #containerCards{
     padding: 6%;
@@ -388,6 +335,60 @@ section #containerCards{
 
 #containerCards .card-text{
     font-size: 10pt;
+}
+
+.platform{
+    height: 70vh;
+    /*background: yellowgreen;*/
+}
+
+.platform .container{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    background: #071838;
+    background-image: url(/assets/backtwo.png);
+    background-size:contain;
+    background-repeat: repeat-x;
+    /*box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);*/
+}
+
+.platform #student{
+    width: 20%;
+    /*background: red;*/
+}
+
+.platform #student img{
+    width: 200%;
+    margin-top: 18%;
+    margin-left: -210px;
+}
+
+.platform #description{
+    width: 70%;
+    /*background: green;*/
+}
+
+.platform #description h2{
+    color: white;
+    margin-top: 8%;
+    font-size: 35pt;
+    font-family: 'Poppins';
+}
+
+.platform cite{
+    color: white;
+    font-size: 15pt;
+    font-family: 'Questrial';
+}
+
+.platform p{
+    font-size: 15pt;
+    color: rgb(0, 255, 64);
+    font-family: 'Questrial';
 }
 
 @media only screen and (max-width: 540px){
@@ -510,6 +511,23 @@ section #containerCards{
         font-family: 'Questrial';
     }
 
+
+    #containerCards button{
+        width: 49%;
+    }
+    
+    #containerCards #text-button{
+        font-size: 12px;
+    }
+
+    #containerCards .card{
+        width: 100%;
+    }
+
+    #containerCards .card img{
+        width: 100%;
+    }
+
     .platform{
         width: 100%;
         height: 100vh;
@@ -561,20 +579,23 @@ section #containerCards{
         font-family: 'Questrial';
     }
 
-    #containerCards button{
-        width: 49%;
+    #testimonials-major .card{
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 10px;
+        border: 3px solid rgb(0, 255, 64);
     }
-    
-    #containerCards #text-button{
+
+    #testimonials-major .card-subtitle{
         font-size: 12px;
     }
 
-    #containerCards .card{
+    #testimonials-major .card img{
         width: 100%;
+        margin-left: 0%;
+        background: #071838;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        /*background: red;*/
     }
-
-    #containerCards .card img{
-        width: 100%;
-    }
-
 }
