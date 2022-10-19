@@ -213,14 +213,15 @@ body{
     }
 
 .learning{
-    height: 100vh;
+    /*height: 100vh;*/
+    /*background: yellowgreen;*/
+    margin-bottom: 8%;
 }
 
 .learning .container-xxl{
     width: 92%;
-    height: 50vh;
+    /*height: 50vh;*/
     margin-top: 4%;
-    margin-bottom: 14px;
     border-radius: 30px;
     background: #0b0b0b;
 }
@@ -296,6 +297,78 @@ body{
     font-size: 16pt;
     text-align: justify;
     font-family: 'Poppins';
+}
+
+#aprendev-major img{
+    width: 50%;
+}
+
+#aprendev-major .material-icons{
+    font-size:50pt;
+    color: rgb(0, 255, 64);
+}
+
+#aprendev-major h2{
+    font-size:50pt;
+    color: whitesmoke;
+    font-family: 'Poppins';
+}
+
+#aprendev-major p{
+    color: #a5a5a5;
+    text-align: justify;
+    font-family: 'Questrial';
+}
+
+.platform{
+    height: 70vh;
+    /*background: yellowgreen;*/
+}
+
+.platform .container{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    background: #071838;
+    background-image: url(/assets/backtwo.png);
+    background-size:contain;
+    background-repeat: repeat-x;
+}
+
+.platform #student{
+    width: 20%;
+    /*background: red;*/
+}
+
+.platform #student img{
+    width: 200%;
+    margin-top: 18%;
+    margin-left: -210px;
+}
+
+.platform #description{
+    width: 70%;
+    /*background: green;*/
+}
+
+.platform #description h2{
+    color: white;
+    margin-top: 8%;
+    font-size: 35pt;
+    font-family: 'Poppins';
+}
+
+.platform cite{
+    color: white;
+    font-size: 15pt;
+    font-family: 'Questrial';
+}
+
+.platform p{
+    font-size: 15pt;
+    color: rgb(0, 255, 64);
+    font-family: 'Questrial';
 }
 
 @media only screen and (max-width: 540px){
@@ -382,9 +455,13 @@ body{
         margin-top: 4%;
     }
 
+    .content button{
+        width: 60%;
+    }
+
     .learning .container-xxl{
         width: 95%;
-        height: 90vh;
+        /*height: 90vh;*/
         overflow-y: hidden;
     }
     
@@ -392,35 +469,74 @@ body{
         width: 100%;
     }
 
-    #container1 .col-sm-4 img{
-        border-top-left-radius: 40px 40px;
-        border-top-right-radius: 40px 40px;
-        border-bottom-left-radius: 40px 40px;
-    }
-
-    #container1 .col-sm-7 .text{
+    #aprendev-major img{
         width: 100%;
     }
 
-    #container1 .col-sm-7, .fa-tablet{
-        margin-top: 10%;
-        font-size: 60px;
+    #aprendev-major .material-icons{
+        font-size:25pt;
         color: rgb(0, 255, 64);
     }
 
-    #container1 .col-sm-7 h2{
-        color: white;
-        width: 100%;
-        font-size: 36px;
-        font-weight: bold;
+    #aprendev-major h2{
+        font-size:30pt;
+        color: whitesmoke;
+        font-family: 'Poppins';
+    }
+
+    #aprendev-major p{
+        color: #a5a5a5;
         font-family: 'Questrial';
     }
 
-    #container1 .col-sm-7 p{
+    .platform{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .platform .container-xxl{
+        width: 100%;
+        /*height: 180vh;*/
+        margin-top: 4%;
+        margin-bottom: 14px;
+        border-radius: 30px;
+        background: #0b0b0b;
+    }
+
+    .platform #student{
+        width: 100%;
+        /*background: red;*/
+    }
+    
+    .platform #student img{
+        width: 100%;
+        margin-top: 8%;
+        margin-left: 0%;
+    }
+    
+    .platform #description{
+        width: 100%;
+        /*background: green;*/
+    }
+
+    .platform #description h2{
         color: white;
-        margin-top: 10%;
-        font-size: 11pt;
-        text-align: justify;
+        margin-top: 3%;
+        font-size: 26pt;
         font-family: 'Poppins';
+    }
+    
+    .platform cite{
+        color: white;
+        font-size: 15pt;
+        text-align: justify;
+        font-family: 'Questrial';
+    }
+    
+    .platform p{
+        font-size: 15pt;
+        text-align: center;
+        color: rgb(0, 255, 64);
+        font-family: 'Questrial';
     }
 }
