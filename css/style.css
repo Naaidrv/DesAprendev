@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    background-color: #0e0e0e;
+    background-color: #0a1322;
 }
 
 /*Barra de Scroll
@@ -46,6 +46,7 @@ body{
     list-style: none;
     display: inline-flex;
     background: #071838;
+    /*#071838;*/
 }
 
 .navbar .navbar-brand img{
@@ -159,8 +160,8 @@ body{
     }
 
     .row-cols-3 .col .card{
-        background: #0b0b0b;
-        border-color: rgb(0, 255, 64);
+        background: #0b0b0b69;
+        /*border-color: rgb(0, 255, 64);*/
     }
     
     .col-md-8 .card-body{
@@ -185,7 +186,6 @@ body{
     }
 
     section button a{
-        color: rgb(255, 255, 255);
         text-decoration: none;
     }
     
@@ -200,16 +200,13 @@ body{
         font-family: 'Questrial';
         text-transform: uppercase;
         transition-duration: 0.4s;
-        border: 2px solid #071838;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(0, 255, 64);
         background-color: transparent;
     }
 
     section button:hover{
-        background-color: #071838;
-    }
-
-    a:hover{
-        color: #FFF;
+        background-color: rgb(0, 255, 64);
     }
 
 .learning{
@@ -223,7 +220,7 @@ body{
     /*height: 50vh;*/
     margin-top: 4%;
     border-radius: 30px;
-    background: #0b0b0b;
+    background: #0b0b0b62;
 }
 
 .learning .container-xxl h1{
@@ -263,42 +260,6 @@ body{
     height: 50vh;
 }
 
-#container1{
-    width: 100%;
-}
-
-#container1 .col-sm-4 img{
-    width: 100%;
-    border-top-left-radius: 40px 40px;
-    border-bottom-left-radius: 40px 40px;
-}
-
-#container1 .col-sm-7 .text{
-    margin-left: 6%;
-    width: 100%;
-}
-
-#container1 .col-sm-7, .fa-tablet{
-    font-size: 50pt;
-    color: rgb(0, 255, 64);
-}
-
-#container1 .col-sm-7 h2{
-    color: white;
-    width: 113%;
-    font-size: 39pt;
-    font-weight: bold;
-    font-family: 'Questrial';
-}
-
-#container1 .col-sm-7 p{
-    color: white;
-    margin-top: 20px;
-    font-size: 16pt;
-    text-align: justify;
-    font-family: 'Poppins';
-}
-
 #aprendev-major img{
     width: 50%;
 }
@@ -334,6 +295,9 @@ body{
     background-image: url(/assets/backtwo.png);
     background-size:contain;
     background-repeat: repeat-x;
+    /*box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);*/
 }
 
 .platform #student{
@@ -369,6 +333,61 @@ body{
     font-size: 15pt;
     color: rgb(0, 255, 64);
     font-family: 'Questrial';
+}
+
+section #containerCards{
+    padding: 6%;
+}
+
+#containerCards .textOne h2{
+    margin-top: 8%;
+    font-size: 28pt;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#containerCards button{
+    width: 30%;
+}
+
+#containerCards #text-button{
+    font-size: 14px;
+}
+
+#containerCards .textOne h2::-moz-selection {
+    background-color: #FFF;
+    color: #791082;
+}
+
+#containerCards .textOne h2::selection {
+    background-color: #FFF;
+    color: #791082;
+}
+ 
+#containerCards .card h5::-moz-selection {
+    background-color: #FFF;
+    color: #791082;
+}
+
+#containerCards .card h5::selection {
+    background-color: #FFF;
+    color: #791082;
+}
+
+#containerCards .card p::-moz-selection {
+    background-color: #FFF;
+    color: #791082;
+}
+
+#containerCards .card p::selection {
+    background-color: #FFF;
+    color: #791082;
+}
+
+#containerCards .card-text{
+    font-size: 10pt;
 }
 
 @media only screen and (max-width: 540px){
@@ -475,11 +494,13 @@ body{
 
     #aprendev-major .material-icons{
         font-size:25pt;
+        margin-top: 12%;
         color: rgb(0, 255, 64);
     }
 
     #aprendev-major h2{
-        font-size:30pt;
+        font-size:32pt;
+        text-align: center;
         color: whitesmoke;
         font-family: 'Poppins';
     }
@@ -538,5 +559,13 @@ body{
         text-align: center;
         color: rgb(0, 255, 64);
         font-family: 'Questrial';
+    }
+
+    #containerCards button{
+        width: 40%;
+    }
+    
+    #containerCards #text-button{
+        font-size: 9.4px;
     }
 }
