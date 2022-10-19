@@ -562,10 +562,19 @@ section #containerCards{
     }
 
     #containerCards button{
-        width: 40%;
+        width: 49%;
     }
     
     #containerCards #text-button{
-        font-size: 9.4px;
+        font-size: 12px;
     }
+
+    #containerCards .card{
+        width: 100%;
+    }
+
+    #containerCards .card img{
+        width: 100%;
+    }
+
 }
