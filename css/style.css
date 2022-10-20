@@ -337,10 +337,7 @@ section #containerCards{
     font-size: 10pt;
 }
 
-.platform{
-    height: 70vh;
-    /*background: yellowgreen;*/
-}
+
 
 .platform .container{
     width: 100%;
@@ -393,19 +390,21 @@ section #containerCards{
 
 .testim {
     width: 100%;
-    position: absolute;
-    margin-top: 16%;
-    -webkit-transform: translatey(-50%);
-    -moz-transform: translatey(-50%);
-    -ms-transform: translatey(-50%);
-    -o-transform: translatey(-50%);
-    transform: translatey(-50%);
+    position: relative;
+    margin-top: 26%;
 }
 
 .testim h2{
     color: white;
     margin-top: 8%;
     font-size: 35pt;
+    font-family: 'Poppins';
+}
+
+.testim .student-class{
+    color: rgb(0, 255, 64);
+    margin-top: 8%;
+    font-size: 15pt;
     font-family: 'Poppins';
 }
 
@@ -423,12 +422,8 @@ position: absolute;
 color: #333;
 cursor: pointer;
 font-size: 2em;
-top: 50%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
--moz-transform: translateY(-50%);
--o-transform: translateY(-50%);
-transform: translateY(-50%);
+top: 60%;
+
 -webkit-transition: all .3s ease-in-out;    
 -ms-transition: all .3s ease-in-out;    
 -moz-transition: all .3s ease-in-out;    
@@ -448,11 +443,11 @@ color: green;
 
 
 .testim .arrow.left {
-left: 70px;
+left: 60px;
 }
 
 .testim .arrow.right {
-right: 70px;
+right: 60px;
 }
 
 .testim .dots {
@@ -531,9 +526,10 @@ position: relative;
 }
 
 .testim .cont div h2 {
-    color: green;
-    font-size: 2em;
+    color: #0086e6;
+    font-size: 16pt;
     margin: 15px 0;
+    font-weight: 600;
     font-family: 'Questrial';
 }
 
@@ -1111,7 +1107,6 @@ to {
 
     .platform{
         width: 100%;
-        height: 100vh;
     }
     
     .platform .container-xxl{
@@ -1161,7 +1156,8 @@ to {
     }
 
     .testim{
-        margin-top: 86%;
+        margin-top: 16%;
+        /*background: yellowgreen;*/
     }
 
     #testim #title-testim{
@@ -1169,9 +1165,10 @@ to {
     }
 
     .testim .cont div h2 {
-        color: green;
-        font-size: 18pt;
+        color: #0086e6;
         margin: 15px 0;
+        font-size: 26pt;
+        font-weight: 600;
         font-family: 'Questrial';
     }
     
@@ -1181,5 +1178,43 @@ to {
         color: #FFF;
         font-size: 10pt;
         font-family: 'Poppins';
+    }
+
+    #inscription #image-major{
+        width: 90%;
+        margin-top: -26%;
+    }
+
+    #inscription #image-major img{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    #inscription .card-inscription{
+        width: 90%;
+        padding: 3%;
+        margin-top: -30%;
+        border-radius: 4px;
+        transform: translateX(5%);
+        background: rgb(255, 255, 255);
+    }
+
+    #inscription .card-inscription p{
+        font-size: 15pt;
+        color: #424242;
+    }
+
+    #inscription .card-inscription button{
+        width: 80%;
+        color: #0a1322;
+        border: 2px solid #071838;
+        transform: translateX(12%);
+    }
+
+    #inscription .card-inscription button:hover{
+        width: 80%;
+        background: #071838;
+        color: rgb(0, 255, 64);
+        transform: translateX(12%);
     }
 }
