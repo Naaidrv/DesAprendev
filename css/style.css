@@ -407,8 +407,8 @@ section #containerCards{
     cursor: pointer;
     position: absolute;
 
+    z-index: 1;
     padding: 5px;
-    z-index: 22222222;
     transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;    
     -ms-transition: all .3s ease-in-out;    
@@ -438,7 +438,7 @@ section #containerCards{
     bottom: 60px;
     left: 0;
     display: block;
-    z-index: 3333;
+    z-index: 1;
     height: 12px;
     position: absolute;
 }
@@ -583,14 +583,14 @@ section #containerCards{
 }
 
 #footer #social img{
-    width: 10%;
+    width: 20%;
 }
 
 #footer #social a{
     font-size: 20pt;
     color: #0086e6;
     margin-bottom: 12%;
-    letter-spacing: 18px;
+    letter-spacing: 24px;
 }
 
 #footer .col{
@@ -1317,11 +1317,15 @@ section .container-xxl{
 
 #inscription .card-inscription{
     width: 90%;
-    padding: 3%;
-    margin-top: -30%;
+    padding: 4%;
+    margin-top: -40%;
+    padding-bottom: 6%;
     border-radius: 4px;
     transform: translateX(9%);
     background: rgb(255, 255, 255);
+    box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
+    -moz-box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
 }
 
 #inscription .card-inscription p{
@@ -1347,6 +1351,21 @@ section .container-xxl{
 
 #footer{
     margin-left: 2%;
+}
+
+#footer #social{
+    margin-bottom: 10%;
+}
+
+#footer #social img{
+    width: 30%;
+}
+
+#footer #social a{
+    font-size: 20pt;
+    color: #0086e6;
+    margin-bottom: 12%;
+    letter-spacing: 24px;
 }
 
 #footer .col{
