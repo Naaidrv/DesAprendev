@@ -541,6 +541,109 @@ position: relative;
     font-family: 'Poppins';
 }
 
+#inscription .col-4{
+    width: 50%;
+    /*background: yellowgreen;*/
+}
+
+#inscription #image-major img{
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 16%;
+    border-radius: 8px;
+    transform: translateX(5%);
+}
+
+#inscription .col-8{
+    width: 50%;
+    /*background: turquoise;*/
+}
+
+#inscription .card-inscription{
+    width: 100%;
+    padding: 3%;
+    margin-top: -16%;
+    border-radius: 4px;
+    transform: translateX(-5%);
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 38px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 38px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px -4px rgba(0,0,0,0.75);
+}
+
+#inscription .card-inscription p{
+    font-size: 15pt;
+    color: #424242;
+    font-weight: 600;
+    text-align: justify;
+}
+
+#inscription .card-inscription button{
+    width: 80%;
+    color: #0a1322;
+    border: 2px solid #071838;
+    transform: translateX(12%);
+}
+
+#inscription .card-inscription button:hover{
+    width: 80%;
+    background: #071838;
+    color: rgb(0, 255, 64);
+    transform: translateX(12%);
+}
+
+/*#inscription #image-major{
+    width: 90%;
+    /*background: red;
+}
+
+#inscription .col-4{
+    width: 100%;
+    margin-top: -40%;
+}
+
+#inscription #image-major img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+#inscription .col-8{
+    width: 100%;
+    margin-top: -10%;
+    /*background: #0086e63b;
+    /*margin-top: 40%;
+}
+
+#inscription .card-inscription{
+    width: 90%;
+    padding: 3%;
+    /*margin-top: -80%;
+    border-radius: 4px;
+    transform: translateX(5%);
+    background: rgb(255, 255, 255);
+}
+
+#inscription .card-inscription p{
+    font-size: 15pt;
+    color: #424242;
+    font-weight: 600;
+    text-align: justify;
+}
+
+#inscription .card-inscription button{
+    width: 80%;
+    color: #0a1322;
+    border: 2px solid #071838;
+    transform: translateX(12%);
+}
+
+#inscription .card-inscription button:hover{
+    width: 80%;
+    background: #071838;
+    color: rgb(0, 255, 64);
+    transform: translateX(12%);
+}*/
+
 .testim .cont div.active .img img {
 -webkit-animation: testim-show .5s ease-in-out forwards;            
 -moz-animation: testim-show .5s ease-in-out forwards;            
@@ -1180,9 +1283,19 @@ to {
         font-family: 'Poppins';
     }
 
+    #inscription .col-4{
+        width: 100%;
+        margin-top: 12%;
+    }
+
+    #inscription .col-8{
+        width: 100%;
+    }
+
     #inscription #image-major{
         width: 90%;
         margin-top: -26%;
+        margin-bottom: 16%;
     }
 
     #inscription #image-major img{
@@ -1195,13 +1308,15 @@ to {
         padding: 3%;
         margin-top: -30%;
         border-radius: 4px;
-        transform: translateX(5%);
+        transform: translateX(9%);
         background: rgb(255, 255, 255);
     }
 
     #inscription .card-inscription p{
         font-size: 15pt;
         color: #424242;
+        font-weight: 600;
+        text-align: justify;
     }
 
     #inscription .card-inscription button{
@@ -1217,4 +1332,5 @@ to {
         color: rgb(0, 255, 64);
         transform: translateX(12%);
     }
+    
 }
