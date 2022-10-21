@@ -110,16 +110,16 @@ window.onload = function() {
 
     testimLeftArrow.addEventListener("click", function() {
         playSlide(currentSlide -= 1);
-    })
+    });
 
     testimRightArrow.addEventListener("click", function() {
         playSlide(currentSlide += 1);
-    })    
+    });    
 
     for (var l = 0; l < testimDots.length; l++) {
         testimDots[l].addEventListener("click", function() {
             playSlide(currentSlide = testimDots.indexOf(this));
-        })
+        });
     }
 
     playSlide(currentSlide);
@@ -142,11 +142,11 @@ window.onload = function() {
             default:
                 break;
         }
-    })
+    });
 		
 		testim.addEventListener("touchstart", function(e) {
 				touchStartPos = e.changedTouches[0].clientX;
-		})
+		});
 	
 		testim.addEventListener("touchend", function(e) {
 				touchEndPos = e.changedTouches[0].clientX;
@@ -166,5 +166,5 @@ window.onload = function() {
 					return;
 				}
 			
-		})
+		});
 }
