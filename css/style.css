@@ -1115,12 +1115,12 @@ to {
     margin-right: 18px;
 }
 
-.col-8{
+.cover .col-8{
     width: 100%;
     margin-top: 50px;
 }
 
-.col-8 h1{
+.cover .col-8 h1{
     color: white;
     font-size: 40pt;
     text-align: left;
@@ -1128,26 +1128,26 @@ to {
     font-family: 'Poppins';
 }
     
-.col-8 span{
+.cover .col-8 span{
     font-weight: 600;
     color: rgb(0, 255, 64);
     text-transform: uppercase;
 }
     
-.col-8 p{
+.cover .col-8 p{
     color: white;
     font-size: 16pt;
     text-align: left;
     font-family: 'Questrial';
 }
 
-.col-4{
+.cover .col-4{
     width: 100%;
 }
 
-.col-4 img{
-    width: 80%;
-    margin-top: 100px;
+.cover .col-4 img{
+    width: 100%;
+    margin-top: 15px;
 }
 
 .slider{
