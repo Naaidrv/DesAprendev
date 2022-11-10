@@ -1396,7 +1396,7 @@ section .container-xxl{
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px), ((max-width: 450px)){
     
 #containerCards #text-button{
     font-size: 8px;
