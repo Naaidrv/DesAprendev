@@ -241,7 +241,8 @@ section button:hover{
     margin-right: 26%;
 }
 
-.learning .container-xxl .align-items-start .fa-key, .fa-laptop, .fa-thumbs-up{
+.learning .container-xxl .align-items-start .fa-key, 
+.fa-laptop, .fa-thumbs-up, .fi-ss-diploma, .fi-br-refresh, .fi-sr-headset{
     color: rgb(0, 255, 64);
 }
 
