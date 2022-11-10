@@ -601,7 +601,12 @@ section #containerCards{
     letter-spacing: 44px;
 }
 
+#footer #social .fa-brands{
+    transition: all 0.4s ease-in-out;
+}
+
 #footer #social .fa-brands:hover{
+    transition: 0.5s;
     color: rgb(0, 255, 64);
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
