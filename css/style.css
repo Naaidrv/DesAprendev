@@ -339,9 +339,6 @@ section #containerCards{
     background-image: url(/assets/backtwo.png);
     background-size:contain;
     background-repeat: repeat-x;
-    /*box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);
-    -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0,0.75);*/
 }
 
 .platform #student{
@@ -440,13 +437,13 @@ section #containerCards{
 }
 
 .testim .dots {
-    text-align: center;
+    left: 0;
+    z-index: 1;
     width: 100%;
     bottom: 60px;
-    left: 0;
-    display: block;
-    z-index: 1;
     height: 12px;
+    display: block;
+    text-align: center;
     position: absolute;
 }
 
@@ -501,8 +498,8 @@ section #containerCards{
 
 
 .testim .cont > div.active {
-    position: relative;
     opacity: 1;
+    position: relative;
 }
 
 
@@ -515,9 +512,9 @@ section #containerCards{
 }
 
 .testim .cont div h2 {
-    color: #0086e6;
-    font-size: 16pt;
     margin: 15px 0;
+    font-size: 16pt;
+    color: #0086e6;
     font-weight: 600;
     font-family: 'Questrial';
 }
@@ -1292,7 +1289,7 @@ section .container-xxl{
 
 .testim{
     margin-top: 16%;
-        /*background: yellowgreen;*/
+    /*background: yellowgreen;*/
 }
 
 #testim #title-testim{
@@ -1398,3 +1395,140 @@ section .container-xxl{
     text-decoration: none;
     }
 }
+
+@media only screen and (max-width: 375px){
+    
+#containerCards #text-button{
+    font-size: 8px;
+}
+
+.platform{
+    width: 100%;
+}
+    
+.platform .container-xxl{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    background: #0b0b0b;
+}
+
+.platform #student{
+    width: 100%;
+    /*background: red;*/
+}
+
+.platform #student img{
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 0%;
+}
+
+.platform #description{
+    width: 100%;
+    height: 80vh;
+    /*background: green;*/
+}
+
+.platform #description h2{
+    width: 100%;
+    color: white;
+    margin-top: 3%;
+    font-size: 25pt;
+    font-family: 'Poppins';
+}
+    
+.platform cite{
+    color: white;
+    font-size: 13pt;
+    text-align: justify;
+    font-family: 'Questrial';
+}
+    
+.platform p{
+    font-size: 15pt;
+    text-align: center;
+    color: rgb(0, 255, 64);
+    font-family: 'Questrial';
+}
+
+.testim{
+    margin-top: 16%;
+        /*background: yellowgreen;*/
+}
+
+#testim #title-testim{
+    font-size: 24pt;
+}
+
+.testim .cont div h2 {
+    color: #0086e6;
+    margin: 15px 0;
+    font-size: 26pt;
+    font-weight: 600;
+    font-family: 'Questrial';
+}
+    
+.testim .cont div p {
+    width: 70%;
+    margin: auto;
+    color: #FFF;
+    font-size: 10pt;
+    font-family: 'Poppins';
+}
+
+#inscription .col-4{
+    width: 100%;
+    margin-top: 12%;
+}
+
+#inscription .col-8{
+    width: 100%;
+}
+
+#inscription #image-major{
+    width: 100%;
+    margin-top: -26%;
+    margin-bottom: 16%;
+}
+
+#inscription #image-major img{
+    width: 92%;
+    border-radius: 8px;
+}
+
+#inscription .card-inscription{
+    width: 88%;
+    padding: 4%;
+    margin-top: -8%;
+    padding-bottom: 6%;
+    border-radius: 4px;
+    transform: translateX(8%);
+    background: rgb(250, 250, 250);
+    box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
+    -moz-box-shadow: -6px 33px 29px 2px rgba(0,0,0,0.47);
+}
+
+#inscription .card-inscription p{
+    font-size: 15pt;
+    font-weight: 600;
+    color: #424242;
+}
+
+    #inscription .card-inscription button{
+    width: 80%;
+    font-size: 10pt;
+    color: #0a1322;
+    border: 2px solid #071838;
+    transform: translateX(12%);
+}
+
+#inscription .card-inscription button:hover{
+    width: 80%;
+    background: #071838;
+    color: rgb(0, 255, 64);
+    transform: translateX(12%);
+    }
+ }
